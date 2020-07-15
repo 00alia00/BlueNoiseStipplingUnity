@@ -1,0 +1,15 @@
+{
+  "name": "com.bluenoise",
+  "version": "1.0.0",
+  "displayName": "BlueNoise",
+  "description": "C# library for generating blue noise https://github.com/joesfer/Stippling",
+  "unity": "2019.3",
+  "keywords": [
+    "noise"
+  ],
+  "author": {
+    "name": "joesfer",
+    "email": "dont@know.com",
+    "url": "https://github.com/joesfer/Stippling"
+  }
+}
