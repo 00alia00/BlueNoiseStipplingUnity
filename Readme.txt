@@ -1,5 +1,9 @@
 Description:
 
+	This is a port to Unity of  https://github.com/joesfer/Stippling. Most external dependencies have been removed
+	and a hacky API is in API.cs for an example. For more detail see the original repository.
+	- Alia
+
 	This file relates to the 'Stippling and Blue Noise' article, published on http://www.joesfer.com/?p=108
 
 License:
@@ -21,17 +25,3 @@ License:
 	You should have received a copy of the GNU Lesser General Public
 	License along with this library; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
-
-Contents of the package:
-
-	/bin
-		BlueNoise.exe : compiled version of the sample application
-		wangTileSet_1024spt_3cols.xml : serialized set of wang tiles with 1024 
-						samples per tile, 3 edge colors, ready 
-						to be used as source on the Wang Tiles 
-stippling method.
-
-	/source
-		C# project with the source code for the test application, including 
-		implementations of the Adaptive Incremental Sampling, Recursive Wang Tiles, 
-		Voronoi Diagram and Delaunay Triangulation.
